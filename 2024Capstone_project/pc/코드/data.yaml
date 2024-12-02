@@ -1,0 +1,10 @@
+train: D:/test/dataset/images/train  # 학습 데이터셋 경로
+val: D:/test/dataset/images/val      # 검증 데이터셋 경로
+
+# Number of classes
+nc: 2  # 클래스 수
+
+device: cuda
+# Class names
+names: ['FL', 'SM']
+
