@@ -1,5 +1,6 @@
 2024년 캡스톤 프로젝트
 투척용 소화구를 발사하는 AI 소방 RC카
-AIhub에서 가져온 화재 관련 라벨링된 이미지들을 YOLOv8을 사용하여 학습을 시켜 카메라를 통한 화재감지
-RaspberryPI4(RPI4)와 데스크탑간의 HTTP통신을 통해 RPI4카메라로 들어오는 영상 프레임을 데스크탑으로 전송
-데스크탑 상에서 학습된 best.pt파일을 이용하여 Object detection을 하고 화재가 감지될 시 RPI4로 소켓 메시지를 전송하여 차량제어
+AIhub에서 가져온 화재 관련 라벨링 된 이미지들을 YOLOv8을 사용하여 학습을 시켜 카메라를 통한 화재 감지
+RaspberryPI4(RPI4)와 desktop간의 HTTP통신을 통해 RPI4카메라로 들어오는 영상 프레임을 desktop으로 전송
+desktop 상에서 학습된 best.pt파일을 이용하여 Object detection을 하고 화재가 감지될 시 RPI4로 소켓 메시지를 전송하여 차량 제어
+
